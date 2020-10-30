@@ -47,7 +47,8 @@
         databaseReference.addValueEventListener(postListener);
         
         
-#### So now.... How app works---->
-      At first for a new user the user will be asked for a username so as to create a reference on the database.
-      Like Below---image
+### So now.... How app works---->
+
+   At first for a new user the user will be asked for a username so as to create a reference on the database.
+      
         
