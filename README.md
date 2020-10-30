@@ -58,9 +58,9 @@
    ![alt txt](https://github.com/Spectre-ak/Firebase-Android/blob/main/images/Screenshot%202020-10-30%20175618.png)
   
   
-   Then if the users select any of the users to chat from the user list then a new database reference will be created with the name as the 
+   Then if the users select any of the users to chat from the user list then a new database reference will be created with the name as
    (this username)+to+(username of the user to chat with) and this refrence will be used to send the messages, similarly there will be one more
-   database reference with the name as the (username of the user to chat with)+to+(this username) which will be used to receive messages from the other user
+   database reference with the name as (username of the user to chat with)+to+(this username) which will be used to receive messages from the other user
    
    For dispaying chats LinearLayout is used and for storing the chat history SharedPreferences.
    The messages are not stored on the database, the very first time the message is received by the other user that message is deleted from the 
