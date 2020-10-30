@@ -63,8 +63,8 @@
    database reference with the name as the (username of the user to chat with)+to+(this username) which will be used to receive messages from the other user
    
    For dispaying chats LinearLayout is used and for storing the chat history SharedPreferences.
-   The messages are not stored on the database, the very first time the message is received by the other user the messages are deleted from the 
-   database and stored locally on phone inside SharedPreferences.
+   The messages are not stored on the database, the very first time the message is received by the other user that message is deleted from the 
+   database and stored locally on phone using SharedPreferences.
    
    ![alt txt](https://github.com/Spectre-ak/Firebase-Android/blob/main/images/Screenshot%202020-10-30%20175313.png)
 ### Where to improve
