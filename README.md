@@ -66,5 +66,5 @@
    1. Applying Data Encryption.
    2. Adding Multimedia support.
    3. Web app to use Firebase Admin SDK for notifications of messages.
-   
+   4. Handling multiple users with same username.
         
