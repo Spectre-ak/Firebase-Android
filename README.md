@@ -50,5 +50,21 @@
 ### So now.... How app works---->
 
    At first for a new user the user will be asked for a username so as to create a reference on the database.
-      
+   Example-
+   Then it a list of all users available on the database will be displayed using android ListView
+   Example-
+   Then if the users select any of the users to chat from the user list then a new database reference will be created with the name as the 
+   (this username)+to+(username of the user to chat with) and this refrence will be used to send the messages, similarly there will be one more
+   database reference with the name as the (username of the user to chat with)+to+(this username) which will be used to receive messages from the other user
+   And UI for chat activity is below:
+   
+   For dispaying chats LinearLayout is used and for storing the chat history SharedPreferences.
+   The messages are not stored on the database, the very first time the message is received by the other user the messages are deleted from the 
+   database and stored locally on phone inside SharedPreferences.
+   
+### Where to improve
+   1. Applying Data Encryption.
+   2. Adding Multimedia support.
+   3. Web app to use Firebase Admin SDK for notifications of messages.
+   
         
